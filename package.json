@@ -1,0 +1,19 @@
+{
+	"name": "vue3_cli_default",
+	"version": "0.0.0",
+	"scripts": {
+		"start": "vite --host 0.0.0.0 --port 22812",
+		"dev": "vite",
+		"build": "vite build",
+		"serve": "vite preview"
+	},
+	"dependencies": {
+		"vue": "^3.2.8",
+		"xterm": "^3.1.0"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^1.6.0",
+		"@vue/compiler-sfc": "^3.2.6",
+		"vite": "^2.5.2"
+	}
+}
